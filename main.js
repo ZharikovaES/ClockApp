@@ -12,6 +12,7 @@ if (clock) {
     }
 }
 
+// размещение меток на циферблате
 function dashesRepeat(dashesWrapper) {
     let degs = 0;
 
@@ -24,6 +25,7 @@ function dashesRepeat(dashesWrapper) {
     }
 }
 
+// размещение чисел на циферблате
 function numbersRepeat(numbersWrapper) {
     let degs = 0;
 
@@ -39,6 +41,7 @@ function numbersRepeat(numbersWrapper) {
     }
 }
 
+// размещение стрелок на циферблате
 function handsCreate(handsWrapper) {
     const hourHand = document.createElement('div');
     const minutHand = document.createElement('div');
@@ -66,8 +69,4 @@ function handsCreate(handsWrapper) {
     handsWrapper.append(hourHand);
     handsWrapper.append(minutHand);
     handsWrapper.append(secondHand);
-
 }
-
-
-
